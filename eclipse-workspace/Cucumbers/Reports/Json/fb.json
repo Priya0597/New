@@ -1,0 +1,383 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-28T13:17:15.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2926926100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To Validate Account with different combination",
+        "description": "",
+        "id": "to-validate-the-forgot-password-functionality;to-validate-account-with-different-combination",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1594027300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to open Facebook forgot password page through Chrome browser",
+            "match": {
+              "location": "StepDefine.user_have_to_open_Facebook_forgot_password_page_through_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 240292300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to pass the email id or phone number and click search",
+            "match": {
+              "location": "StepDefine.user_have_to_pass_the_email_id_or_phone_number_and_click_search(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "crazypria1502@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "dharshith3012@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotPassword"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Forgot Password Functionality",
+    "description": "",
+    "id": "to-validate-the-forgot-password-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/forgotpwd.feature",
+    "tags": [
+      {
+        "name": "@ForgotPassword",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-28T13:17:19.980Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1090789900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": " User have to Validate Login with Different combination",
+        "id": "to-validate-login-functionality-of-facebook-application;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1396422700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to open FaceBook through Chrome Browser",
+            "match": {
+              "location": "StepDefine.user_have_to_open_FaceBook_through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322623400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to Pass the \"RajaPriya\" and \"priya@0597\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RajaPriya\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"priya@0597\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefine.user_have_to_Pass_the_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T13:17:22.793Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1057617100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": " User have to Validate Login with Different combination",
+        "id": "to-validate-login-functionality-of-facebook-application;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1519786300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to open FaceBook through Chrome Browser",
+            "match": {
+              "location": "StepDefine.user_have_to_open_FaceBook_through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 300931800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to Pass the \"DharShith\" and \"dharsh@3012\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DharShith\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"dharsh@3012\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefine.user_have_to_Pass_the_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T13:17:25.673Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1298036700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": " User have to Validate Login with Different combination",
+        "id": "to-validate-login-functionality-of-facebook-application;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1552696600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to open FaceBook through Chrome Browser",
+            "match": {
+              "location": "StepDefine.user_have_to_open_FaceBook_through_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257847100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to Pass the \"Ezhil\" and \"ezhil@0902\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ezhil\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"ezhil@0902\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefine.user_have_to_Pass_the_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Login Functionality of Facebook Application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/login1.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-28T13:17:28.783Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1386575400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To Validate the signup functionality with valid data",
+        "description": "",
+        "id": "to-validate-the-signup-functionality-of-facebook-application;to-validate-the-signup-functionality-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()\u003d\u0027Create new account\u0027]\"}\n  (Session info: chrome\u003d129.0.6668.70)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.19.0\u0027, revision: \u00275f9cec8963\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.22\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [74e82b11f2b68fa892c19ce18ac66a80, findElement {value\u003d//a[text()\u003d\u0027Create new account\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\\Users\\rasek\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50695/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 74e82b11f2b68fa892c19ce18ac66a80\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat org.helping.BaseClass.clickElement(BaseClass.java:68)\r\n\tat org.step.StepDefine.user_have_to_click_create_new_Account_and_fill_up_user_credentials(StepDefine.java:41)\r\n\tat ✽.User have to click create new Account and fill up user credentials(file:src/test/resources/Feature/signup.feature:4)\r\n",
+              "duration": 3058442300,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User have to click create new Account and fill up user credentials",
+            "match": {
+              "location": "StepDefine.user_have_to_click_create_new_Account_and_fill_up_user_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fname",
+                  "Lname",
+                  "mobile",
+                  "npwsd",
+                  "date",
+                  "month",
+                  "year"
+                ]
+              },
+              {
+                "cells": [
+                  "Raja",
+                  "Priya",
+                  "8903866283",
+                  "Pri@0597",
+                  "5",
+                  "Jan",
+                  "1997"
+                ]
+              },
+              {
+                "cells": [
+                  "Dharshith",
+                  "Ezhil",
+                  "9488247921",
+                  "dharsh@3012",
+                  "30",
+                  "12",
+                  "2022"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SignUp"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Signup Functionality of Facebook application",
+    "description": "",
+    "id": "to-validate-the-signup-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/signup.feature",
+    "tags": [
+      {
+        "name": "@SignUp",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

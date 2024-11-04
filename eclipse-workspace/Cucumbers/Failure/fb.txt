@@ -1,0 +1,2 @@
+file:src/test/resources/Feature/signup.feature:3
+file:src/test/resources/Feature/forgotpwd.feature:3
